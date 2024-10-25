@@ -1,0 +1,117 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #fce4ec, #e1bee7); /* Light pink to lilac gradient */
+    color: #1a1a1a; /* Dark text for contrast */
+}
+
+/* Other styles remain unchanged */
+
+header {
+    background: linear-gradient(135deg, #ff6f91, #1e3c72); /* Pink to navy gradient */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid #ff3f5b; /* Neon pink */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); /* Subtle text shadow */
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background-image: url('file:///C:/Users/Cherub%20et%20Ron/Pictures/372410788_841056540656640_873382948763574970_n.jpg');
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #ff6f91; /* Neon pink border */
+}
+
+img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 10%; /* Slightly rounded corners for images */
+    border: 5px solid #1e3c72; /* Navy border */
+}
+
+button {
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #ff3f5b, #8e24aa); /* Neon pink to lilac gradient */
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #8e24aa, #ff3f5b); /* Reverse gradient on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: linear-gradient(135deg, #ffe1e1, #f8bbd0); /* Light pink to lilac */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 10px;
+    color: #1a1a1a; /* Dark text */
+}
+
+a {
+    color: #ff3f5b; /* Neon pink link color */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #8e24aa; /* Lilac on hover */
+    text-decoration: underline;
+}
+
+.skills-images img {
+    max-width: 50px; /* Smaller logos */
+    margin: 5px;
+    border: 2px solid #1e3c72; /* Navy border for logos */
+    border-radius: 10%; /* Rounded corners */
+}
+
+@media (max-width: 600px) {
+    section {
+        margin: 5px;
+    }
+    
+    img {
+        max-width: 80%; /* Make images responsive */
+    }
+    
+    button {
+        width: 100%; /* Full width buttons on mobile */
+    }
+}
+
+/* Footer Style */
+footer {
+    background: #1e3c72; /* Navy footer */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+}
